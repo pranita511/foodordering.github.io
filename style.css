@@ -93,3 +93,22 @@ li a
 	font-family: sans-serif;
 	font-weight: bold;
 }
+.site-footer{
+	background-color: #222;
+	color:#fff;
+	margin-top: 30px;
+	padding-top: 30px;
+}
+.h2 site-footer {
+	padding-bottom: 14px;
+}
+.h3 site-footer{
+	padding-top: 8px;
+}
+.ph site-footer{
+	color: #fff;
+
+}
+.li site-footer{
+	color: #333;
+}
