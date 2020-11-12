@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Order Now</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+    body
+    {
+      background-color: #F5FFFA;
+    }
+    #ui
+    {
+      background-color: #87CEFA;
+      padding: 30px;
+      margin-top: 50px;
+      border-radius: 10px;
+    }
+
+    #ui label,h1
+    {
+      color: #fff;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3"> </div>
+      <div class="col-lg-6">
+        <div id="ui">
+          <h1 class="text-center">ORDER NOW</h1>
+          <form class="form-group text-center">
+            <div class="row">
+              <div class="col-lg-6">
+                <label>First Name:</label>
+                <input type="text" name="fname" class="form-control" placeholder="Enter your First name">
+              </div>
+
+              <div class="col-lg-6">
+                <label>Last Name:</label>
+                <input type="text" name="lname" class="form-control" placeholder="Enter your Last name">
+              </div>
+            </div>
+              
+            <label>E-mail:</label>
+            <input type="email" name="email" class="form-control" placeholder="Enter your E-mail">
+
+            <label>Address:</label>
+            <input type="text" name="address" class="form-control" placeholder="Enter your Address">
+
+            <label>Phone Number:</label>
+            <input type="text" name="phn" class="form-control" placeholder="Enter your Phone Number">
+
+            <div class="row">
+              <div class="col-lg-6">
+                <label>Choose Dish1</label>
+                <select class="form-control">
+                <option>Choose Snacks:</option>
+                <option>Pizaa</option>
+                <option>Burger</option>
+                <option>French Fries</option>
+                <option>Cold Coffe</option>
+                <option>Hot Coffe</option>
+            </select> 
+              </div>
+
+              <div class="col-lg-6">
+                <label>Choose Dish 2:</label>
+                <select class="form-control">
+                <option>Choose Dish:</option>
+                <option>Idali</option>
+                <option>Dosa</option>
+                <option>Purn Poli</option>
+                <option>Rice</option>
+                <option>Dal</option>
+            </select> 
+              </div>
+            </div>
+              <br>
+            <select class="form-control">
+              <option>Choose Country:</option>
+              <option>India</option>
+              <option>America</option>
+              <option>Italy</option>
+            </select>  
+            <br>
+
+            <div class="text-left">
+            <label>Select Gender</label>
+            <br>
+            <label><input type="radio" name="male" checked>Male</label>
+            <br>
+            <label><input type="radio" name="female">Female</label>
+            </div>
+
+            <br>
+            <div class="custom-control custom-checkbox mb-3 text-left">
+             <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+              <label class="custom-control-label" for="customCheck">I Agree Terms and Conditions</label>
+            </div>
+
+            
+            <input type="submit" name="submit" value="submit" class="btn btn-primary btn-block btn-lg">
+
+          </form>
+        </div>
+      </div>
+        <div class="col-lg-3"></div>>
+
+    </div>
+  </div>
+</body>
