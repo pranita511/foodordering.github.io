@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Food Order</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+	<script>
+	$(document).ready(function()
+	{
+  		$("#hide").click(function()
+  		{
+   	 		$("p").hide();
+  		});
+
+  		$("#show").click(function()
+  		{
+    		$("p").show();
+  		});
+	});
+	</script>
+
+</head>
+<body>
+	<header>
+		
+  
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 	    
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a href=""><img class="logo" src="logo1.jpg"></a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="nav navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallary.html">Gallary</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="register_login.html">SignIn/SignUp</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="OrderNow.html">Order Now</a>
+      </li>
+     
+    </ul>
+</div>
+
+
+	</header>
+
+	<section id="home">
+		<h1 class="h-primary">Welcome to OnlineFood</h1>
+		<p>Order Food Delivery from Your Favourite Restaurants</p>
+		<div class="text-center">
+			<button id="hide" class="btn btn-primary text-center">Click Here</button>
+			<button id="show" class="btn btn-primary text-center">Read More</button>
+		</div>
+	</section> 
+
+	<section id="service-container">
+		<h1 class="h-primary-center">Our Services</h1>
+		<div id="services">
+			
+           <div class="card" style="width: 18rem;">
+         <img class="card-img-top" src="Pizza_burger.jpg" alt=" ">
+         <div class="card-body">
+            <h5 class="card-title">Snacks</h5>
+            <p class="card-text">Pizza,Burger,French Fries,Cold Cofffe,Hot Coffe</p>
+          <a href="#" class="btn btn-primary">Go</a>
+        </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+         <img class="card-img-top" src="idli_dosa.jpg" alt=" ">
+         <div class="card-body">
+            <h5 class="card-title">South Indian Dishes</h5>
+            <p class="card-text">Idli,Dosa,Uttapa,Masala Dosa</p>
+          <a href="#" class="btn btn-primary">Go</a>
+        </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+         <img class="card-img-top" src="image16.jpg" alt=" ">
+         <div class="card-body">
+            <h5 class="card-title">Indian Dishes</h5>
+            <p class="card-text">Purn Poli,Rice,Curry,Dal</p>
+          <a href="#" class="btn btn-primary">Go</a>
+        </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+         <img class="card-img-top" src="chinesefood.jpg" alt=" ">
+         <div class="card-body">
+            <h5 class="card-title">Chinese Dishes</h5>
+            <p class="card-text">Noodles, Munchurian,Soup</p>
+          <a href="#" class="btn btn-primary">Go</a>
+        </div>
+        </div>
+				
+	</section>
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-4 fadeInUp" data-wow-delay="0.6s">
+					<h2 class="heading">Links</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="gallary.html">Gallary</a></li>
+						<li><a href="register_login.html">Registration</a></li>
+						<li><a href="OrderNow.html">Order Now</a></li>
+
+					</ul>
+					
+
+					
+				</div>
+				<div class="col-md-4 col-sm-4 fadeInUp" data-wow-delay="0.6s">
+					<h2 class="heading">Contact Info.</h2>
+					<div class="ph">
+						<p>Pranjal Bhagat</p>
+						<p><i class="fa fa-phone"></i></p>
+						
+						<p>Pranita Kolekar</p>
+						<p><i class="fa fa-phone"></i></p>
+						<h4>+91 7038201794</h4>
+						<h4>+91 9923434013</h4>
+
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 fadeInUp" data-wow-delay="0.6s">
+					<h2 class="heading">Address</h2>
+					<p>Sangali,Maharashtra</p>
+				</div>
+				</div>
+
+
+		</div>
+		
+		
+	</footer>
+	
+
+</body>
+</html>
